@@ -1,0 +1,37 @@
+/* Галерея — 3 по 360px */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 360px);
+  gap: 20px;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+}
+
+/* Картка — без обмеження по висоті! */
+.gallery__item {
+  width: 360px;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+}
+
+/* Зображення — 360×200 */
+.gallery__item img {
+  width: 360px;
+  height: 200px;
+  object-fit: cover;
+  display: block;
+}
+
+/* Блок з підписами */
+.info {
+  padding: 8px 12px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 6px;
+  background: #fff;
+  font-size: 14px;
+}
