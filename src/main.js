@@ -1,4 +1,4 @@
-    import './main.css';
+    // import './main.css';
     import 'izitoast/dist/css/iziToast.min.css';
     import iziToast from 'izitoast';
     import 'loaders.css/loaders.min.css';
